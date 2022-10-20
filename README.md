@@ -13,7 +13,7 @@
 
 ### Dataset Information
 
-The data set consists of the expression levels of 77 proteins/protein. TThere are 19 control (normal) and 16 trisomic mice for a total of 35 mice. In experiments, 15 measurements were registered for each protein per sample/mouse, for a total of 525 measurements per protein.
+The data set consists of the expression levels of 77 proteins/protein. There are 19 control (normal) and 16 trisomic mice for a total of 35 mice. In experiments, 15 measurements were registered for each protein per sample/mouse, for a total of 525 measurements per protein.
 
 Classes:  
 c-CS-s: control mice, stimulated to learn, injected with saline (9 mice)  
