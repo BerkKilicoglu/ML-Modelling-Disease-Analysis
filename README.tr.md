@@ -14,6 +14,7 @@
 ### Veri Kümesi Bilgileri
 
 Veri seti, 77 protein/protein modifikasyonunun ekspresyon seviyelerinden oluşur. Toplam 35 fare için 19 control (normal) ve 16 trizomik fare vardır. Deneylerde, numune/fare başına her protein için 15 ölçüm kaydedildi, protein başına toplam 525 ölçüm vardır 
+
 Sınıflar:  
 c-CS-s: öğrenmesi için uyarılmış, saline enjekte edilmiş kontrol fareleri (9 fare)  
 c-CS-m: öğrenmesi için uyarılmış, memantine enjekte edilmiş kontrol fareleri (10 fare)  
