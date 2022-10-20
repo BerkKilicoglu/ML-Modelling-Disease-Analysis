@@ -1,0 +1,128 @@
+GridSearchCV took 50190.57 seconds for 8640 candidate parameter settings.
+Model with rank: 1
+Mean validation score: 0.890 (std: 0.035)
+Parameters: {'learning_rate': 0.05, 'loss': 'huber', 'max_depth': 15, 'min_samples_leaf': 8, 'min_samples_split': 3, 'n_estimators': 700, 'subsample': 0.5}
+
+Model with rank: 2
+Mean validation score: 0.888 (std: 0.031)
+Parameters: {'learning_rate': 0.05, 'loss': 'ls', 'max_depth': 3, 'min_samples_leaf': 5, 'min_samples_split': 7, 'n_estimators': 700, 'subsample': 0.5}
+
+Model with rank: 3
+Mean validation score: 0.887 (std: 0.038)
+Parameters: {'learning_rate': 0.05, 'loss': 'ls', 'max_depth': 15, 'min_samples_leaf': 8, 'min_samples_split': 7, 'n_estimators': 650, 'subsample': 0.5}
+
+{'learning_rate': 0.05, 'loss': 'ls', 'max_depth': 15, 'min_samples_leaf': 8, 'min_samples_split': 3, 'n_estimators': 700, 'subsample': 0.5}
+Training Set Mean Absolute Error: 0.0020
+Test Set Mean Absolute Error: 0.1722
+
+
+
+GridSearchCV took 15386.49 seconds for 5184 candidate parameter settings.
+Model with rank: 1
+Mean validation score: 0.884 (std: 0.035)
+Parameters: {'learning_rate': 0.05, 'loss': 'ls', 'max_depth': 3, 'min_samples_leaf': 5, 'min_samples_split': 3, 'n_estimators': 600, 'subsample': 0.5}
+
+Model with rank: 2
+Mean validation score: 0.883 (std: 0.037)
+Parameters: {'learning_rate': 0.05, 'loss': 'ls', 'max_depth': 3, 'min_samples_leaf': 5, 'min_samples_split': 2, 'n_estimators': 600, 'subsample': 0.5}
+
+Model with rank: 3
+Mean validation score: 0.883 (std: 0.032)
+Parameters: {'learning_rate': 0.1, 'loss': 'huber', 'max_depth': 3, 'min_samples_leaf': 5, 'min_samples_split': 2, 'n_estimators': 600, 'subsample': 0.5}
+
+Model with rank: 4
+Mean validation score: 0.881 (std: 0.043)
+Parameters: {'learning_rate': 0.05, 'loss': 'huber', 'max_depth': 3, 'min_samples_leaf': 1, 'min_samples_split': 2, 'n_estimators': 600, 'subsample': 0.5}
+
+Model with rank: 5
+Mean validation score: 0.881 (std: 0.034)
+Parameters: {'learning_rate': 0.1, 'loss': 'lad', 'max_depth': 15, 'min_samples_leaf': 3, 'min_samples_split': 2, 'n_estimators': 400, 'subsample': 0.5}
+
+{'learning_rate': 0.05, 'loss': 'ls', 'max_depth': 3, 'min_samples_leaf': 5, 'min_samples_split': 3, 'n_estimators': 600, 'subsample': 0.5}
+Training Set Mean Absolute Error: 0.0196
+Test Set Mean Absolute Error: 0.1846
+
+
+
+
+GridSearchCV took 24691.37 seconds for 5760 candidate parameter settings.
+Model with rank: 1
+Mean validation score: 0.897 (std: 0.020)
+Parameters: {'learning_rate': 0.05, 'loss': 'ls', 'max_depth': 5, 'min_samples_leaf': 5, 'min_samples_split': 4, 'n_estimators': 500, 'subsample': 0.3}
+
+Model with rank: 2
+Mean validation score: 0.894 (std: 0.038)
+Parameters: {'learning_rate': 0.05, 'loss': 'huber', 'max_depth': 3, 'min_samples_leaf': 2, 'min_samples_split': 5, 'n_estimators': 700, 'subsample': 0.3}
+
+Model with rank: 3
+Mean validation score: 0.894 (std: 0.028)
+Parameters: {'learning_rate': 0.05, 'loss': 'ls', 'max_depth': 8, 'min_samples_leaf': 8, 'min_samples_split': 4, 'n_estimators': 600, 'subsample': 0.3}
+
+{'learning_rate': 0.05, 'loss': 'ls', 'max_depth': 5, 'min_samples_leaf': 5, 'min_samples_split': 4, 'n_estimators': 500, 'subsample': 0.3}
+Training Set Mean Absolute Error: 0.0160
+Test Set Mean Absolute Error: 0.1899
+
+
+GridSearchCV took 6716.59 seconds for 2304 candidate parameter settings.
+Model with rank: 1
+Mean validation score: 0.899 (std: 0.020)
+Parameters: {'learning_rate': 0.05, 'loss': 'ls', 'max_depth': 3, 'min_samples_leaf': 2, 'min_samples_split': 2, 'n_estimators': 500, 'subsample': 0.3}
+
+Model with rank: 2
+Mean validation score: 0.897 (std: 0.031)
+Parameters: {'learning_rate': 0.05, 'loss': 'huber', 'max_depth': 3, 'min_samples_leaf': 2, 'min_samples_split': 4, 'n_estimators': 500, 'subsample': 0.3}
+
+Model with rank: 3
+Mean validation score: 0.896 (std: 0.042)
+Parameters: {'learning_rate': 0.07, 'loss': 'ls', 'max_depth': 10, 'min_samples_leaf': 6, 'min_samples_split': 4, 'n_estimators': 600, 'subsample': 0.3}
+
+{'learning_rate': 0.05, 'loss': 'ls', 'max_depth': 3, 'min_samples_leaf': 2, 'min_samples_split': 2, 'n_estimators': 500, 'subsample': 0.3}
+Training Set Mean Absolute Error: 0.0367
+Test Set Mean Absolute Error: 0.2087
+
+
+
+GridSearchCV took 1101.45 seconds for 432 candidate parameter settings.
+Model with rank: 1
+Mean validation score: 0.894 (std: 0.030)
+Parameters: {'learning_rate': 0.05, 'loss': 'huber', 'max_depth': 3, 'min_samples_leaf': 4, 'min_samples_split': 2, 'n_estimators': 750, 'subsample': 0.3}
+
+Model with rank: 2
+Mean validation score: 0.892 (std: 0.042)
+Parameters: {'learning_rate': 0.05, 'loss': 'ls', 'max_depth': 3, 'min_samples_leaf': 4, 'min_samples_split': 2, 'n_estimators': 750, 'subsample': 0.3}
+
+Model with rank: 3
+Mean validation score: 0.892 (std: 0.034)
+Parameters: {'learning_rate': 0.05, 'loss': 'huber', 'max_depth': 3, 'min_samples_leaf': 4, 'min_samples_split': 5, 'n_estimators': 750, 'subsample': 0.4}
+
+{'learning_rate': 0.05, 'loss': 'huber', 'max_depth': 3, 'min_samples_leaf': 4, 'min_samples_split': 2, 'n_estimators': 750, 'subsample': 0.3}
+Training Set Mean Absolute Error: 0.0225
+Test Set Mean Absolute Error: 0.2139
+
+
+GridSearchCV took 29866.60 seconds for 6480 candidate parameter settings.
+Model with rank: 1
+Mean validation score: 0.888 (std: 0.022)
+Parameters: {'learning_rate': 0.1, 'loss': 'lad', 'max_depth': 3, 'min_samples_leaf': 2, 'min_samples_split': 5, 'n_estimators': 600, 'subsample': 0.5}
+
+Model with rank: 2
+Mean validation score: 0.888 (std: 0.037)
+Parameters: {'learning_rate': 0.05, 'loss': 'ls', 'max_depth': 3, 'min_samples_leaf': 8, 'min_samples_split': 3, 'n_estimators': 600, 'subsample': 0.5}
+
+Model with rank: 3
+Mean validation score: 0.887 (std: 0.045)
+Parameters: {'learning_rate': 0.05, 'loss': 'huber', 'max_depth': 3, 'min_samples_leaf': 5, 'min_samples_split': 3, 'n_estimators': 650, 'subsample': 0.5}
+
+Model with rank: 4
+Mean validation score: 0.884 (std: 0.041)
+Parameters: {'learning_rate': 0.05, 'loss': 'lad', 'max_depth': 15, 'min_samples_leaf': 3, 'min_samples_split': 2, 'n_estimators': 650, 'subsample': 0.5}
+
+Model with rank: 5
+Mean validation score: 0.884 (std: 0.041)
+Parameters: {'learning_rate': 0.05, 'loss': 'ls', 'max_depth': 5, 'min_samples_leaf': 8, 'min_samples_split': 3, 'n_estimators': 400, 'subsample': 0.5}
+
+{'learning_rate': 0.1, 'loss': 'lad', 'max_depth': 3, 'min_samples_leaf': 2, 'min_samples_split': 5, 'n_estimators': 600, 'subsample': 0.5}
+Training Set Mean Absolute Error: 0.0462
+Test Set Mean Absolute Error: 0.2420
+
+
