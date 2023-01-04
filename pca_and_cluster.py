@@ -7,12 +7,12 @@ from sklearn.decomposition import PCA
 from sklearn.metrics import v_measure_score
 from sklearn.preprocessing import LabelEncoder
 
-path = os.path.join('dataset','Memantine-4class-Normalize.xlsx')
+path = os.path.join('dataset','diabetes_health_indicators.xlsx')
 df = pd.read_excel(path)
 le = LabelEncoder()
-df['class'] = le.fit_transform(df['class'])
-y = df['class']
-del df['class']
+df['Diabetes_binary'] = le.fit_transform(df['Diabetes_binary'])
+y = df['Diabetes_binary']
+del df['Diabetes_binary']
 
 
 pca = PCA(n_components=2)

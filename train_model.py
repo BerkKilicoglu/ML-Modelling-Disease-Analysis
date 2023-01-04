@@ -7,7 +7,7 @@ import joblib
 from sklearn.preprocessing import LabelEncoder
 
 
-path = os.path.join('dataset','Memantine-4class-Normalize.xlsx')
+path = os.path.join('dataset','diabetes_health_indicators.xlsx')
 #Load dataset and create dataframe
 df = pd.read_excel(path)
 
@@ -15,15 +15,15 @@ df = pd.read_excel(path)
 features_df = df.copy()
 
 #Remove the class from the feature data
-del features_df['class']
+del features_df['Diabetes_binary']
 
 #Replace categorical data with label encoded data
 le = LabelEncoder()
-df['class'] = le.fit_transform(df['class'])
+df['Diabetes_binary'] = le.fit_transform(df['Diabetes_binary'])
 
 # X: Attributes we will process       Y:Target attribute to predict
 X = features_df.values
-y = df['class'].values
+y = df['Diabetes_binary'].values
 
 #Split dataset into training(%70) and testing(%30)
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3, random_state=10)
@@ -42,7 +42,7 @@ model = ensemble.GradientBoostingClassifier(
 model.fit(X_train, y_train)
 
 #Save the trained model to a file so we can use it in other programs
-joblib.dump(model, 'mymodel.pkl')
+joblib.dump(model, 'trained_gbm_model.pkl')
 
 # Find the accuracy rate on the training set
 acc = accuracy_score(y_train, model.predict(X_train))

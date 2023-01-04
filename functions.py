@@ -33,7 +33,6 @@ def display_circles(pcs, n_comp, pca, axis_ranks, labels=None, label_rotation=0,
                 plt.quiver(np.zeros(pcs.shape[1]), np.zeros(pcs.shape[1]),
                    pcs[d1,:], pcs[d2,:], 
                    angles='xy', scale_units='xy', scale=1, color="grey")
-                # (see the doc : https://matplotlib.org/api/_as_gen/matplotlib.pyplot.quiver.html)
             else:
                 lines = [[[0,0],[x,y]] for x,y in pcs[[d1,d2]].T]
                 ax.add_collection(LineCollection(lines, axes=ax, alpha=.1, color='black'))

@@ -8,7 +8,7 @@ from sklearn.preprocessing import LabelEncoder
 import numpy as np
 from time import time
 
-path = os.path.join('dataset','Memantine-4class-Normalize.xlsx')
+path = os.path.join('dataset','diabetes_health_indicators.xlsx')
 #Load dataset and create dataframe
 df = pd.read_excel(path)
 
@@ -16,15 +16,15 @@ df = pd.read_excel(path)
 features_df = df.copy()
 
 #Remove the class from the feature data
-del features_df['class']
+del features_df['Diabetes_binary']
 
 #Replace categorical data with label encoded data
 le = LabelEncoder()
-df['class'] = le.fit_transform(df['class'])
+df['Diabetes_binary'] = le.fit_transform(df['Diabetes_binary'])
 
 # X: Attributes we will process       Y:Target attribute to predict
 X = features_df.values
-y = df['class'].values
+y = df['Diabetes_binary'].values
 
 #Split dataset into training(%70) and testing(%30)
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3, random_state=10)
